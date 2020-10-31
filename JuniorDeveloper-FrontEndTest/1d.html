@@ -1,0 +1,36 @@
+<style>
+    .item1{background: lightskyblue;}
+    .item2{background: lightsalmon;}
+    .item3{background: paleturquoise;}
+    .item4 {
+        grid-area: header;
+        background: lightpink;
+    }
+    .item5{
+        grid-area: footer;
+        background: palegreen;
+    }
+
+    .container {
+        font-size: 40px;
+        min-height: 300px;
+        width: 400px;
+        height: 400px;
+        background: lightgray;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        grid-template-areas: "header header header"
+        "adver contet content"
+        "footer footer footer";
+    }
+</style>
+
+<div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+</div>
