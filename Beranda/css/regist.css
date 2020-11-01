@@ -1,0 +1,44 @@
+
+.container{
+	position: relative;
+}
+
+body {
+	background-color: #e0e0e0;
+}
+
+.panel-body{
+	position: center;
+	top: 10px;
+  	right: 10px;
+ 	left: 10px;
+  	bottom: 10px;
+  	background: white;
+  	border-radius: 10px;
+  	padding-right: 200px;
+	padding-left: 300px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #fcfcfc;
+}
+
+
+.name{
+	position: absolute;
+}
+
+.tempat{
+	position: absolute;
+}
+
+.tanggalLahir{
+	position: absolute;
+}
+
+.alamat{
+	position: absolute;
+}
+
+.email{
+	position: absolute;
+}

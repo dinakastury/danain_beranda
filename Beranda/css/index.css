@@ -1,0 +1,69 @@
+li {
+    list-style: none;
+    color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: darkgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 { 
+    color: darkgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: white;
+    height: 90px;
+}
+
+.header img {
+    float: left;
+    padding: 5px;
+    width: 110px;
+    height: 40px;
+}
+
+.header li {
+    float: right;
+    padding: 15px;
+    padding-top: 5px;
+    color: green;
+}
+
+button {
+    background-color: white;
+    border-color: green;
+    border-radius: 10px; 
+    padding:6px 15px
+}
+
+.footer{
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.footer ul {
+    float: left;
+}
+
+p {
+    color: darkgreen;
+}
+
+
